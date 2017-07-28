@@ -1,0 +1,36 @@
+recursive_best_first_search with h_1...
+
+Expansions   Goal Tests   New Nodes
+   4229        4230       17023
+
+Plan length: 6  Time elapsed in seconds: 2.080071598173516
+///////////////////////////////////////////////////////////
+greedy_best_first_graph_search with h_1...
+
+Expansions   Goal Tests   New Nodes
+    7           9           28
+
+Plan length: 6  Time elapsed in seconds: 0.004254684931506849
+///////////////////////////////////////////////////////////
+astar_search with h_1...
+
+Expansions   Goal Tests   New Nodes
+    55          57         224
+
+Plan length: 6  Time elapsed in seconds: 0.029999050228310502
+///////////////////////////////////////////////////////////
+astar_search with h_ignore_preconditions...
+
+Expansions   Goal Tests   New Nodes
+    41          43         170
+
+Plan length: 6  Time elapsed in seconds: 0.028344986301369862
+///////////////////////////////////////////////////////////
+astar_search with h_pg_levelsum...
+
+Expansions   Goal Tests   New Nodes
+    55          57         224
+
+Plan length: 6  Time elapsed in seconds: 1.1093780456621005
+
+ALL ARE OPTIMAL

@@ -1,0 +1,48 @@
+Breath_first_search:
+
+Expansions   Goal Tests   New Nodes
+    43          56         180
+
+Plan length: 6  Time elapsed in seconds: 0.02714330593607306
+Optimal: Yes
+////////////////////////////////////////////////////////////////
+breadth_first_tree_search...
+
+Expansions   Goal Tests   New Nodes
+   1458        1459        5960
+
+Plan length: 6  Time elapsed in seconds: 0.7154229771689498
+Optimal: Yes
+////////////////////////////////////////////////////////////////
+depth_first_graph_search...
+
+Expansions   Goal Tests   New Nodes
+    21          22          84
+
+Plan length: 20  Time elapsed in seconds: 0.011126356164383561
+Optimal: No
+////////////////////////////////////////////////////////////////
+depth_limited_search...
+
+Expansions   Goal Tests   New Nodes
+   101         271         414
+
+Plan length: 50  Time elapsed in seconds: 0.07025388127853881
+Optimal: No
+////////////////////////////////////////////////////////////////
+uniform_cost_search...
+
+Expansions   Goal Tests   New Nodes
+    55          57         224
+
+Plan length: 6  Time elapsed in seconds: 0.028738922374429224
+Optimal: Yes
+
+
+#First problem optimal:
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P2, JFK, SFO)
+Unload(C2, P2, SFO)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)

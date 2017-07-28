@@ -1,0 +1,30 @@
+breadth_first_search...
+
+Expansions   Goal Tests   New Nodes
+  14491       17947       128184
+
+Plan length: 12  Time elapsed in seconds: 82.24321519634702
+Optimal: Yes
+////////////////////////////////////////////////////////////
+breadth_first_tree_search...
+NaN
+More then 10 minutes
+////////////////////////////////////////////////////////////
+depth_first_graph_search...
+
+Expansions   Goal Tests   New Nodes
+   2099        2100       17558
+
+Plan length: 2014  Time elapsed in seconds: 15.965234264840182
+Optimal: No
+////////////////////////////////////////////////////////////
+depth_limited_search...
+NaN
+more then 10 minutes
+////////////////////////////////////////////////////////////
+uniform_cost_search
+
+Expansions   Goal Tests   New Nodes
+  17783       17785       155920
+
+Plan length: 12  Time elapsed in seconds: 39.74931842922374
